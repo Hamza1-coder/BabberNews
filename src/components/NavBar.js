@@ -56,7 +56,7 @@ export default class NavBar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/"}>
+                  <Link className="nav-link active" to={"/sports"}>
                     Sports
                   </Link>
                 </li>
@@ -71,7 +71,5 @@ export default class NavBar extends Component {
         </nav>
       </div>
     )
-  
 }
 }
-
