@@ -31,7 +31,7 @@ export default class NavBar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link active" to={"/business"}>
+                  <Link className="nav-link active" to={"/business"}>
                     Business
                   </Link>
                 </li>
