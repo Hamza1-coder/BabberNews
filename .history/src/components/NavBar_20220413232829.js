@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 export default class NavBar extends Component {
   render() {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="#">
+            <NavLink className="navbar-brand" to="#">
               Babber News
-            </Link>
+            </NavLink>
             <button
               className="navbar-toggler"
               type="button"
@@ -26,44 +26,44 @@ export default class NavBar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/">
+                  <NavLink className="nav-link active" aria-current="page" to="/">
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link active" to={"/business"}>
+                  <NavLink className="nav-link active" to="/business">
                     Business
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/entertainment"}>
+                  <NavLink className="nav-link active" to="/entertainment">
                     Entertainment
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/general"}>
+                  <NavLink className="nav-link active" to="/general">
                     General
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/health"}>
+                  <NavLink className="nav-link active" to="/health">
                     Health
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/science"}>
+                  <NavLink className="nav-link active" to="/science">
                     Science
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/"}>
+                  <NavLink className="nav-link active" to="/">
                     Sports
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/technology"}>
+                  <NavLink className="nav-link active" to="/technology">
                     Technology
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>

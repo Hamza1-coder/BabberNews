@@ -31,37 +31,37 @@ export default class NavBar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link active" to={"/business"}>
+                  <Link className="nav-link active" to={"/business"}>
                     Business
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/entertainment"}>
+                  <Link className="nav-link active" to="/entertainment">
                     Entertainment
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/general"}>
+                  <Link className="nav-link active" to="/general">
                     General
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/health"}>
+                  <Link className="nav-link active" to="/health">
                     Health
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/science"}>
+                  <Link className="nav-link active" to="/science">
                     Science
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/"}>
+                  <Link className="nav-link active" to="/">
                     Sports
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to={"/technology"}>
+                  <Link className="nav-link active" to="/technology">
                     Technology
                   </Link>
                 </li>
